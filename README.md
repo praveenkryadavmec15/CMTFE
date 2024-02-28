@@ -12,7 +12,7 @@ Finite Difference Method (FDM) was used for the discretization of the Governing 
 
 **Solution Algorithm**  
 1. Input Statements
-   1. i_{max} and j_{max} are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having i_{max} x jmax elements are specified.
+   1. $i_{max}$ and j_{max} are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having i_{max} x jmax elements are specified.
    2. Uo, L & 
 
 The governing differential equation was solved on each grid point obatiaon after geometry discretization to obtain the flow properties 
