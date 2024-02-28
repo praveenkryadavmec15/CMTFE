@@ -26,5 +26,5 @@ Finite Difference Method (FDM) was used for the discretization of the Governing 
 9. For strongly nonlinear problems (high Reynolds number flows), under relaxation may be employed for si and omega.
 10. For each node, the difference in the values of u, v, si and omega between two consecutive iterations are determined. Maximum residual value is determined among them. If the residue > $\epsilon$ one goes back to step 4.
 
-**CFD Analysis**
+**CFD Analysis**  
 u & v velocity contour, streamlines and vorticity contours have been plotted. 
