@@ -9,8 +9,9 @@ Uniform grid was used for the dividing the geometry into smaller grids.
 **Finite Difference Method Based Algebraic Formulation**
 
 Finite Difference Method (FDM) was used for the discretization of the Governing Differential Equations (stream function and vorticity equation) to Linear Algebraic Equations. 
-    1. Finite Difference Equation for Stream Function
-    2. Finite Difference Equation for u and V velocity
+
+    1. Finite Difference Equation for Stream Function\n
+    2. Finite Difference Equation for u and V velocity\n
     3. Finite Difference Equation for Vorticity Transport Equation
 
 
