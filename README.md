@@ -1,7 +1,7 @@
 # 2D Incompressible Steady State Flow Solver based on Stream-Function Vorticity Method
 
 
-## Domain Discretization: Grid Generation     
+### Domain Discretization: Grid Generation     
 Uniform grid used for dividing the geometry into smaller grids.
 
 ## Finite Difference Method Based Algebraic Formulation  
