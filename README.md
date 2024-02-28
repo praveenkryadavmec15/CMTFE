@@ -17,7 +17,7 @@ Finite Difference Method (FDM) used for the discretization of the Governing Diff
    3. Reynolds number specified and $\Delta X$ and $\Delta Y$ are calculated.
 2. Initial value for  $\phi$ ( = si, omega, u & v) is assumed.
 3. Boundary condition for si, u and v are applied.
-4. $\phi_{old}$(i,j) = $\phi$(i,j)  {$\phi$ = si, omega, u & v} for all grid points.
+4. $\phi_{old}$(i,j) = $\phi$(i,j)  { $\phi$ = si, omega, u & v } for all grid points.
 5. Velocities are computed at the interior nodes using stream function values of previous iteration.
 6. Stream function values at interior nodes are computed using vorticity values of previous iteration.
 7. Vorticity values at the domain boundaries are computed.
