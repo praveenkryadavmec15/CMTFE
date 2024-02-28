@@ -1,10 +1,10 @@
 # 2D Incompressible Steady State Flow Solver based on Stream-Function Vorticity Method
 
 
-**Domain Discretization: Grid Generation**  
+## Domain Discretization: Grid Generation     
 Uniform grid used for dividing the geometry into smaller grids.
 
-**Finite Difference Method Based Algebraic Formulation**  
+## Finite Difference Method Based Algebraic Formulation  
 Finite Difference Method (FDM) used for the discretization of the Governing Differential Equations (stream function and vorticity equation) and Boundary conditions to Linear Algebraic Equations.   
 1. Finite Difference Equation for Stream Function
 2. Finite Difference Equation for u and v velocity
