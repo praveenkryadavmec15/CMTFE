@@ -1,9 +1,7 @@
-**2D Incompressible Flow steady state solver for a Lid Driven Cavity and a T-channel are provided here**
-
+**2D Incompressible Flow steady state solver for a Lid Driven Cavity and a T-channel are provided here**  
 These codes were written as part of the Term project for Computational Methods in Thermal and Fluids Engineering course at IIT Bombay.
 
-**Domain Discretization: Grid Generation**
-
+**Domain Discretization: Grid Generation**  
 Uniform grid was used for the dividing the geometry into smaller grids.
 
 **Finite Difference Method Based Algebraic Formulation**
