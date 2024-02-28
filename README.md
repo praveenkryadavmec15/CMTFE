@@ -11,11 +11,10 @@ Finite Difference Method (FDM) was used for the discretization of the Governing 
 3. Finite Difference Equation for Vorticity Transport Equation
 
 **Solution Algorithm**  
-1. Input Statements
-   1. $i_{max}$ and $j_{max}$ are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having $i_{max}$ x $j_{max}$ elements are specified.
-   2. $U_o$, L & $\epsilon$ are specified.
+1. Input Parameters
+   1. $i_{max}$ and $j_{max}$ are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having $i_{max}$ x $j_{max}$ elements is specified.
+   2. $U_o$ , L & $\epsilon$ are specified.
    3. Reynolds number specified and $\Delta X$ and $\Delta Y$ are calculated.
-
 2. Initial value for  $\phi$ ( = si, omega, u & v) is assumed.
 3. Boundary condition for si, u and v are applied.
 4. $\phi_{old}$(i,j) = $\phi_{old}$(i,j)  $\phi$ ( = si, omega, u & v) for all grid points.
