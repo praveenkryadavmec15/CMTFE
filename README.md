@@ -1,4 +1,4 @@
-**2D Incompressible Flow steady state solver for a Lid Driven Cavity and a T-channel using Stream-Function Vorticity Method**  
+#2D Incompressible Flow steady state solver for a Lid Driven Cavity and a T-channel using Stream-Function Vorticity Method
 
 
 **Domain Discretization: Grid Generation**  
