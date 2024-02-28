@@ -1,16 +1,16 @@
-# 2D Incompressible Steady State Flow Solver based on Stream-Function Vorticity Method
+## 2D Incompressible Steady State Flow Solver based on Stream-Function Vorticity Method
 
 
 ### Domain Discretization: Grid Generation     
 Uniform grid used for dividing the geometry into smaller grids.
 
-## Finite Difference Method Based Algebraic Formulation  
+### Finite Difference Method Based Algebraic Formulation  
 Finite Difference Method (FDM) used for the discretization of the Governing Differential Equations (stream function and vorticity equation) and Boundary conditions to Linear Algebraic Equations.   
 1. Finite Difference Equation for Stream Function
 2. Finite Difference Equation for u and v velocity
 3. Finite Difference Equation for Vorticity Transport Equation (FOU Scheme)
 
-## Solution Algorithm   
+### Solution Algorithm   
 1. Input Parameters
    1. $i_{max}$ and $j_{max}$ are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having $i_{max}$ x $j_{max}$ elements is specified.
    2. $U_o$ , L & $\epsilon$ are specified.
@@ -25,7 +25,8 @@ Finite Difference Method (FDM) used for the discretization of the Governing Diff
 9. For strongly nonlinear problems (high Reynolds number flows), under relaxation may be employed for si and omega.
 10. For each node, the difference in the values of u, v, si and omega between two consecutive iterations are determined. Maximum residual value is determined among them. If the residue > $\epsilon$ one goes back to step 4.
 
-## CFD Analysis  
+### CFD Analysis  
 u & v velocity contour, streamlines and vorticity contours have been plotted. 
 
-**NOTE:** These codes were written as part of the Term project for Computational Methods in Thermal and Fluids Engineering course at IIT Bombay.
+#### NOTE:  
+These codes were written as part of the Term project for Computational Methods in Thermal and Fluids Engineering course at IIT Bombay.
