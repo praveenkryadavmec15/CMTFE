@@ -13,8 +13,8 @@ Finite Difference Method (FDM) was used for the discretization of the Governing 
 **Solution Algorithm**  
 1. Input Statements
    1. $i_{max}$ and $j_{max}$ are specified. Matrix for $\phi$ ( = si, omega, u & v) and $\phi_{old}$ having $i_{max}$ x $j_{max}$ elements are specified.
-   2. U_o, L & $\epsilon$ are specified.
-   3. Reynolds number specified and $\DeltaX$ and $\DeltaY$ are calculated.
+   2. $U_o$, L & $\epsilon$ are specified.
+   3. Reynolds number specified and $\Delta X$ and $\Delta Y$ are calculated.
 
 2. Initial value for  $\phi$ ( = si, omega, u & v) is assumed.
 3. Boundary condition for si, u and v are applied.
