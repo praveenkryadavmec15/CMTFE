@@ -2,7 +2,7 @@
 These codes were written as part of the Term project for Computational Methods in Thermal and Fluids Engineering course at IIT Bombay.
 
 **Domain Discretization: Grid Generation**  
-Uniform grid was used for the dividing the geometry into smaller grids.
+Uniform grid was used for dividing the geometry into smaller grids.
 
 **Finite Difference Method Based Algebraic Formulation**  
 Finite Difference Method (FDM) was used for the discretization of the Governing Differential Equations (stream function and vorticity equation) to Linear Algebraic Equations.   
@@ -10,6 +10,10 @@ Finite Difference Method (FDM) was used for the discretization of the Governing 
 2. Finite Difference Equation for u and V velocity
 3. Finite Difference Equation for Vorticity Transport Equation
 
+**Solution Algorithm**  
+1. Input Statements
+   1. imax and jmax are specified. Matrix for $\phi$ ( = si, omega, u & v) and phi_old having imax x jmax elements are specified.
+   2. Uo, L & 
 
 The governing differential equation was solved on each grid point obatiaon after geometry discretization to obtain the flow properties 
 The Geometric and Thermophysical properties of the fluid flow were specified.  
