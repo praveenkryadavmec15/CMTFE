@@ -1,4 +1,4 @@
-## 2D Incompressible Steady State Flow Solver based on Stream-Function Vorticity Method
+## 2D Incompressible Flow Steady State Solver based on Stream-Function Vorticity Method
 
 
 ### Domain Discretization: Grid Generation     
